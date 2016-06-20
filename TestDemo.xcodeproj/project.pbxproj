@@ -13,6 +13,7 @@
 		464696441D17C08C006911F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 464696421D17C08C006911F9 /* Main.storyboard */; };
 		464696461D17C08C006911F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 464696451D17C08C006911F9 /* Assets.xcassets */; };
 		464696491D17C08C006911F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 464696471D17C08C006911F9 /* LaunchScreen.storyboard */; };
+		464696531D17C9CF006911F9 /* XLLineLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 464696521D17C9CF006911F9 /* XLLineLayoutConstraint.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		464696451D17C08C006911F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		464696481D17C08C006911F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4646964A1D17C08C006911F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		464696511D17C9CF006911F9 /* XLLineLayoutConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLLineLayoutConstraint.h; sourceTree = "<group>"; };
+		464696521D17C9CF006911F9 /* XLLineLayoutConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLLineLayoutConstraint.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,7 @@
 		464696381D17C08C006911F9 /* TestDemo */ = {
 			isa = PBXGroup;
 			children = (
+				464696501D17C7C3006911F9 /* 故事版约束 */,
 				4646963C1D17C08C006911F9 /* AppDelegate.h */,
 				4646963D1D17C08C006911F9 /* AppDelegate.m */,
 				4646963F1D17C08C006911F9 /* ViewController.h */,
@@ -77,6 +81,15 @@
 				4646963A1D17C08C006911F9 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		464696501D17C7C3006911F9 /* 故事版约束 */ = {
+			isa = PBXGroup;
+			children = (
+				464696511D17C9CF006911F9 /* XLLineLayoutConstraint.h */,
+				464696521D17C9CF006911F9 /* XLLineLayoutConstraint.m */,
+			);
+			name = "故事版约束";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,6 +164,7 @@
 			files = (
 				464696411D17C08C006911F9 /* ViewController.m in Sources */,
 				4646963E1D17C08C006911F9 /* AppDelegate.m in Sources */,
+				464696531D17C9CF006911F9 /* XLLineLayoutConstraint.m in Sources */,
 				4646963B1D17C08C006911F9 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
